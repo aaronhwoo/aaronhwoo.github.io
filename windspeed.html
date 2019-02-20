@@ -3,8 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Max Temp vs. Latitude</title>
+  <title>Bootstrap Components</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -18,21 +21,25 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-          <a class="navbar-brand" href="#">Windspeed</a>
+          <a class="navbar-brand" href="#">Latitude</a>
         </div>
   
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="https://www.google.com">Comparison <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Data</a></li>
+            <li><a href="table.html">Data</a></li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="https://getbootstrap.com/docs/4.3/examples/starter-template/#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" href="maxtemp.html">Latitude vs. Max Temp</a>
-                  <a class="dropdown-item" href="humidity.html">Latitude vs. Humidity</a>
-                  <a class="dropdown-item" href="cloudiness.html">Latitude vs. Cloudiness</a>
-                  <a class="dropdown-item" href="windspeed.html">Latitude vs. Wind Speed</a>
+                <div class ="dropdown"></div>
+                  <button type ="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  Plots
+                  </button>  
+                  <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="maxtemp.html">Latitude vs. Max Temp</a>
+                    <a class="dropdown-item" href="humidity.html">Latitude vs. Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Latitude vs. Cloudiness</a>
+                    <a class="dropdown-item" href="windspeed.html">Latitude vs. Wind Speed</a>
+                  </div>
                 </div>
           </ul>
         </div>
